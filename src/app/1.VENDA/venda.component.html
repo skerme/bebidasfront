@@ -13,8 +13,8 @@
 
 
 
-
-      <mat-progress-bar value="primary"  mode="query"></mat-progress-bar>
+<!--
+      <mat-progress-bar value="primary"  mode="query"></mat-progress-bar> -->
 
 
 
@@ -31,7 +31,14 @@
           margin-top: 10px;
         "
       > -->
-      <marquee behavior="alternate" SCROLLAMOUNT=20 style="background: rgb(55, 55, 55);  font-size: 40px;">
+
+
+
+
+
+
+
+      <!-- <marquee behavior="alternate" SCROLLAMOUNT=20 style="background: rgb(55, 55, 55);  font-size: 40px;">
 
 
 
@@ -40,25 +47,45 @@
  </p>
 
  <p  *ngIf="this.valorRCB>=META  " style="margin-top: 10px; color:rgb(0, 255, 8); font-weight: bold;">
-  PARABÉNS----->META: {{META    | currency : 'BRL'}}<-----PARABÉNS
+  PARABÉNS-----META: {{META    | currency : 'BRL'}}-----PARABÉNS
 </p>
 
-         </marquee>
+         </marquee> -->
+
+
+
 
 
       <!-- </p> -->
 
 
-<mat-progress-bar mode="indeterminate"></mat-progress-bar>
+<!-- <mat-progress-bar mode="indeterminate"></mat-progress-bar> -->
 
       <div class="col-3">
         <DIV class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
           <div class="col-12" style="margin-bottom: 3px">
             <mat-card class="example-card">
               <mat-card-title style="text-align: center"
                 >CLIENTE</mat-card-title
               >
-              <!-- <mat-card-subtitle style="text-align: center;">SHELDON KERME</mat-card-subtitle> -->
+
 
               <mat-card-content>
 
@@ -77,7 +104,7 @@
 
 
     <!-- <h5 class="card-header" class="alert alert-danger computador_teste2" role="alert"  style="font-size: 20px; font-weight: bold; text-align: center;"  >
- -->
+
 
 
 
@@ -88,6 +115,11 @@
 <h5 class="card-header" class="alert alert-success " role="alert" style="font-size: 20px; font-weight: bold; text-align: center;" [hidden]="this.formVenda.value.cliente=='CLIENTE NÃO INFORMADO'"  >
   {{this.formVenda.value.cliente | uppercase}}
 </h5>
+
+
+
+
+
 
 
 
@@ -105,7 +137,7 @@
         </DIV>
 
         <table mat-table matSort [dataSource]="this.dataSourceClientes">
-          <!-- Position Column -->
+
 
 
           <ng-container matColumnDef="nome">
@@ -142,6 +174,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 <!--
     </h5> -->
 
@@ -159,7 +200,7 @@
 
 
   <!-- </div> -->
-  <!-- //INSERI POR CAUSA DA AUTOESCOLA -->
+  <!-- //INSERI POR CAUSA DA AUTOESCOLA
 
 
 
@@ -174,6 +215,20 @@
               </mat-card-content>
             </mat-card>
           </div>
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -223,11 +278,11 @@
                       style="margin-left: 30; margin-bottom: 5px"
                       >ATACADO</mat-radio-button
                     >
-                    <mat-radio-button
+                    <!-- <mat-radio-button
                       value="varejo"
                       style="margin-left: 30; margin-bottom: 5px"
                       >VAREJO</mat-radio-button
-                    >
+                    > -->
                   </mat-radio-group>
                 </form>
               </mat-card-content>
@@ -249,13 +304,13 @@
                   <mat-radio-group    aria-label="Select an option"       formControlName="forma"         >
                     <mat-radio-button             value="PIX"            style="margin-right:85px; margin-bottom: 5px"     >PIX</mat-radio-button     >
                     <mat-radio-button            value="DINHEIRO"       style="margin-right: 42px; margin-bottom: 5px"     >DINHEIRO</mat-radio-button >
-                    <mat-radio-button            value="DÉBITO"      style="margin-right: 55px; margin-bottom: 5px"     >DÉBITO</mat-radio-button  >
-                    <mat-radio-button            value="CRÉDITO"    style="margin-bottom: 5px"    >CRÉDITO</mat-radio-button          >
+                    <!-- <mat-radio-button            value="DÉBITO"      style="margin-right: 55px; margin-bottom: 5px"     >DÉBITO</mat-radio-button  >
+                    <mat-radio-button            value="CRÉDITO"    style="margin-bottom: 5px"    >CRÉDITO</mat-radio-button          > -->
                   </mat-radio-group>
                 </form>
 
 
-<div class="row">
+<!-- <div class="row">
 
  <div class="col-3">
   <input  type="number"  class="form-control"  id="acrescimo"  [(ngModel)]="this.venda.pix "   placeholder="QUANTIDADE"  mask="separator.2" style="margin-top: 5px; text-align: center;"  />
@@ -271,7 +326,7 @@
   <input  type="number"  class="form-control"  id="acrescimo"  [(ngModel)]="this.venda.credito "   placeholder="QUANTIDADE"  mask="separator.2" style="margin-top: 5px; text-align: center;"  />
 </div>
 
-</div>
+</div> -->
 
 
               </mat-card-content>
@@ -367,7 +422,7 @@
                 </div>
               </mat-expansion-panel>
 
-              <div class="row">
+              <!-- <div class="row">
 
                 <button    style="font-size: 25px; font-weight: bold;  "    type="button"        class="btn btn-danger btn-lg"       > DESPESAS  :   {{this.valorDESPESA  }}    </button>
 
@@ -376,7 +431,7 @@
 
                 <button    style="font-size: 25px; font-weight: bold;  "    type="button"        class="btn btn-dark btn-lg"        (click)="inserirProduto()"      > INSERIR PRODUTO </button>
 
-            </div>
+            </div> -->
 
 
 

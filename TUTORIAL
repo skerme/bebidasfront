@@ -7,12 +7,12 @@ PARA TRABALHAR COM ANGULAR INSTALAR O PLUGIN==>  Angular Extension Pack
 NOMEDOPROJETO: GESTAO
 
 MONGODB
- USERNAME: gestao
- PASSWORD:mQP9ofYvsZjiCqph
+ USERNAME: bebidas
+ PASSWORD:oC2sDKQ2Bhb5Bns7
 
 
-compass     mongodb+srv://gestao:mQP9ofYvsZjiCqph@cluster0.4ep0j.mongodb.net/gestao
-mongoshell  mongosh "mongodb+srv://cluster0.4ep0j.mongodb.net/gestao" --apiVersion 1 --username gestao
+compass     mongodb+srv://bebidas:oC2sDKQ2Bhb5Bns7@cluster0.z9gto3i.mongodb.net/test
+mongoshell  mongosh "mongodb+srv://cluster0.z9gto3i.mongodb.net/myFirstDatabase" --apiVersion 1 --username bebidas
 
 
 
