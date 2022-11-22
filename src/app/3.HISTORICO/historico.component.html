@@ -186,8 +186,8 @@
       <tr *ngFor="let item of this.detalhes">
         <td>{{ item.codigo }}</td>
         <td>{{ item.descricao | uppercase}}</td>
-        <td>{{ item.tamanho }}</td>
-        <td>{{ item.demanda | uppercase}}</td>
+        <!-- <td>{{ item.tamanho }}</td>
+        <td>{{ item.demanda | uppercase}}</td> -->
         <td *ngIf="this.ocutarmenuopcoes" >{{ item.precoCompra | currency : 'BRL' }}</td>
 
         <td>{{ item.quantidade | number }}</td>
