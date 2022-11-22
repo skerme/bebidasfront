@@ -53,16 +53,16 @@ export class HistoricoComponent implements OnInit {
   token: string = '';
 
   displayedColumns = [
-    'acao',
+     'acao',
     'codigo',
-    'cliente',
-    'vendedor',
+    // 'cliente',
+    // 'vendedor',
     'formaPagamento',
      'custoVenda',
     'total',
     // 'valorRecebido',
-    'acrescimo',
-    'desconto',
+    // 'acrescimo',
+    // 'desconto',
     // 'troco',
     'dataDaVenda',
 
