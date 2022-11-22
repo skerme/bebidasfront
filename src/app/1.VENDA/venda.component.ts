@@ -97,7 +97,7 @@ export class VendaComponent implements OnInit {
     'descricao',
     // 'precoVendaVarejo',
     'precoVendaAtacado',
-
+    'tamanhos[11].quantidade',
   ];
 
 

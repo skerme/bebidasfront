@@ -519,7 +519,33 @@
 
 
 
-
+                    <ng-container matColumnDef="tamanhos[11].quantidade">
+                      <th
+                        mat-header-cell
+                        mat-sort-header
+                        *matHeaderCellDef
+                        style="
+                          text-align: left;
+                          color: rgb(255, 255, 255);
+                          font-weight: bold;
+                          font-size: 15px;
+                        "
+                      >
+                        QUANTIDADE
+                      </th>
+                      <td
+                        mat-cell
+                        *matCellDef="let element"
+                        style="
+                          text-align: left;
+                          color: rgb(255, 255, 255);
+                          font-weight: bold;
+                          font-size: 15px;
+                        "
+                      >
+                        {{ element.tamanhos[11].quantidade }}
+                      </td>
+                    </ng-container>
 
 
 
