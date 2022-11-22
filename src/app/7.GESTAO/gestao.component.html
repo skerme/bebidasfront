@@ -50,10 +50,10 @@
 
 
 
-      <div style="font-weight: bold; background-color: rgb(35, 38, 41); color: rgb(0, 230, 11); margin-bottom: 6px;"  class=" tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
+      <!-- <div style="font-weight: bold; background-color: rgb(35, 38, 41); color: rgb(0, 230, 11); margin-bottom: 6px;"  class=" tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
        CAIXA+RECEITA LÍQUIDA: {{ valorAberturaCaixa+this.valorRCB   | currency : 'BRL' }}
-        <!-- (PERCENTUAL DE GANHO: {{(this.valorRCB-this.valorCMV)/this.valorRCB  | percent:'2.2-2'}}) -->
-      </div>
+        (PERCENTUAL DE GANHO: {{(this.valorRCB-this.valorCMV)/this.valorRCB  | percent:'2.2-2'}})
+      </div> -->
 
 
           <mat-card-content>
@@ -61,15 +61,15 @@
               (+)RECEITA BRUTA:{{this.valorRCB +this.desconto | currency : 'BRL' }}
             </div>
 
-            <div style="font-weight: bold; background-color: rgb(35, 38, 41);color: cornsilk; margin-bottom: 6px;" class="tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
+            <!-- <div style="font-weight: bold; background-color: rgb(35, 38, 41);color: cornsilk; margin-bottom: 6px;" class="tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
               (-)DESCONTOS:  {{ this.desconto | currency : 'BRL' }}
-            </div>
+            </div> -->
 
-            <div style="font-weight: bold; background-color: rgb(35, 38, 41); color: rgb(0, 230, 11); margin-bottom: 6px;"  class=" tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
+            <!-- <div style="font-weight: bold; background-color: rgb(35, 38, 41); color: rgb(0, 230, 11); margin-bottom: 6px;"  class=" tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
               (+)RECEITA LÍQUIDA: {{this.valorRCB  | currency : 'BRL' }}
 
-              <!-- (PERCENTUAL DE GANHO: {{(this.valorRCB-this.valorCMV)/this.valorRCB  | percent:'2.2-2'}}) -->
-            </div>
+               (PERCENTUAL DE GANHO: {{(this.valorRCB-this.valorCMV)/this.valorRCB  | percent:'2.2-2'}})
+            </div> -->
 
 
 
@@ -87,13 +87,13 @@
             </div>
 
 
-            <div style=" font-weight: bold; background-color: rgb(35, 38, 41); color: cornsilk; margin-bottom: 6px;" class="tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
+            <!-- <div style=" font-weight: bold; background-color: rgb(35, 38, 41); color: cornsilk; margin-bottom: 6px;" class="tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
               (=)LUCRO BRUTO: {{this.valorRCB  -this.valorCMV| currency : 'BRL' }}
-            </div>
+            </div> -->
 
-            <div style=" font-weight: bold; background-color: rgb(35, 38, 41); color: cornsilk; margin-bottom: 6px;" class="tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
+            <!-- <div style=" font-weight: bold; background-color: rgb(35, 38, 41); color: cornsilk; margin-bottom: 6px;" class="tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
               (-)DESPESAS : {{this.valorDESPESA  | currency : 'BRL' }}
-            </div>
+            </div> -->
 
 
             <div *ngIf="this.valorRCB -this.valorCMV-this.valorDESPESA>=0"  style="height: 45px;  font-weight: bold; background-color: rgb(25, 0, 255);color: rgb(255, 255, 255); margin-bottom: 6px;" class="tamanho_texto_celular tamanho_texto_desktop alert alert-primary" role="alert">
