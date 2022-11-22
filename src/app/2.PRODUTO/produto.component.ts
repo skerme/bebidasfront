@@ -61,14 +61,14 @@ historicoProduto: any[]=[]
   token: string = '';
 
   displayedColumns = [
-    'acao',
-    'codigo',
+    // 'acao',
+    // 'codigo',
     'descricao',
-    'precoCompra',
-    'precoVendaVarejo',
+    // 'precoCompra',
+    // 'precoVendaVarejo',
     'precoVendaAtacado',
-    'dataAlteracao',
-    'dataCriacao',
+    // 'dataAlteracao',
+    // 'dataCriacao',
     // 'tamanhos[0].quantidade',
     // 'tamanhos[1].quantidade',
     // 'tamanhos[2].quantidade',

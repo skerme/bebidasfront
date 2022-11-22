@@ -71,6 +71,9 @@ export class VendaComponent implements OnInit {
   precoCompra: number = 0;
   precoVendaVarejo: number = 0;
   precoVendaAtacado: number = 0;
+  tamanho_U: number = 0;
+
+
   tamanho_P: number = 0;
   tamanho_M: number = 0;
   tamanho_G: number = 0;
@@ -92,8 +95,9 @@ export class VendaComponent implements OnInit {
     'acao',
     'codigo',
     'descricao',
-    'precoVendaVarejo',
+    // 'precoVendaVarejo',
     'precoVendaAtacado',
+
   ];
 
 
@@ -873,7 +877,7 @@ this.estatisticaService.saveCar(this.acesso).subscribe((x) => {      });
 
 
 
-
+      console.log("vvvvvvvvv", itens[0].tamanhos[11].quantidade)
 
 
 
@@ -957,6 +961,7 @@ if(itens.length>0){
     this.precoCompra = item.precoCompra;
     this.precoVendaVarejo = item.precoVendaVarejo;
     this.precoVendaAtacado = item.precoVendaAtacado;
+    this.tamanho_U = item.tamanho_U;
     this.tamanho_P = item.tamanhos[0].quantidade;
     this.tamanho_M = item.tamanhos[1].quantidade;
     this.tamanho_G = item.tamanhos[2].quantidade;
@@ -982,6 +987,7 @@ if(itens.length>0){
     this.precoCompra = 0;
     this.precoVendaVarejo = 0;
     this.precoVendaAtacado = 0;
+    this.tamanho_U =0;
     this.tamanho_P = 0;
     this.tamanho_M = 0;
     this.tamanho_G = 0;
