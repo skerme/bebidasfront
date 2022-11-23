@@ -64,6 +64,7 @@ historicoProduto: any[]=[]
     // 'acao',
     // 'codigo',
     'descricao',
+    'tamanhos[11].quantidade',
      'precoCompra',
     // 'precoVendaVarejo',
     'precoVendaAtacado',
@@ -80,7 +81,7 @@ historicoProduto: any[]=[]
     // 'tamanhos[8].quantidade',
     // 'tamanhos[9].quantidade',
     // 'tamanhos[10].quantidade',
-    'tamanhos[11].quantidade',
+
   ];
   dataSource!: MatTableDataSource<any>;
 
