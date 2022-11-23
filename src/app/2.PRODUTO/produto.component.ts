@@ -64,7 +64,7 @@ historicoProduto: any[]=[]
     // 'acao',
     // 'codigo',
     'descricao',
-    // 'precoCompra',
+     'precoCompra',
     // 'precoVendaVarejo',
     'precoVendaAtacado',
     // 'dataAlteracao',
