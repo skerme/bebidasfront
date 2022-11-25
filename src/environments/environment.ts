@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlhostname: 'https://bebidasapih.herokuapp.com'//'https://bebidasapih.herokuapp.com''http://localhost:3000'
+  urlhostname: 'http://localhost:3000'//'https://bebidasapih.herokuapp.com''http://localhost:3000'
 };
 
 /*
