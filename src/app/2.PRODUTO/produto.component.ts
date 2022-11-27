@@ -61,7 +61,7 @@ historicoProduto: any[]=[]
   token: string = '';
 
   displayedColumns = [
-    // 'acao',
+     'acao',
     // 'codigo',
     'descricao',
     'tamanhos[11].quantidade',
